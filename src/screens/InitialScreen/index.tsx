@@ -1,12 +1,13 @@
 import React from 'react';
-import { Text } from 'react-native';
 
-import { Container } from './styles';
+import { Container, Image } from './styles';
+
+import youtubeLogo from '../../assets/youtubeLogo1.png';
 
 const InitialScreen: React.FC = () => {
   return (
     <Container>
-      <Text>Hello sir</Text>
+      <Image source={youtubeLogo} />
     </Container>
   );
 };
