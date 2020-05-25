@@ -1,8 +1,14 @@
 import React from 'react';
-import { View } from 'react-native';
+import { Text } from 'react-native';
+
+import { Container } from './styles';
 
 const InitialScreen: React.FC = () => {
-  return <View />;
+  return (
+    <Container>
+      <Text>Hello sir</Text>
+    </Container>
+  );
 };
 
 export default InitialScreen;
